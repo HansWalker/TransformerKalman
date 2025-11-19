@@ -1,0 +1,6 @@
+File: Kalman_Filters.unscented_kalman_filter
+Class: UKF
+Params:
+  alpha: .001
+  beta: 2.0
+  kappa: 0.0

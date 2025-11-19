@@ -1,0 +1,4 @@
+File: Kalman_Filters.ensemble_kalman_filter
+Class: EnKF
+Params:
+  ensemble_size: 50

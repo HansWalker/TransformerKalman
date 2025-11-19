@@ -1,0 +1,11 @@
+File: Scenarios.seir
+Class: SEIR
+Params:
+  time_step: 0.05
+  substeps: 4
+  beta: 0.6
+  sigma: 0.2
+  gamma: 0.1
+  p: 1.0
+  eps: 1e-6
+  enforce_simplex: True

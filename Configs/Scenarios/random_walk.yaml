@@ -1,0 +1,4 @@
+File: Scenarios.random_walk
+Class: RandomWalk
+Params:
+  time_step: 0.01

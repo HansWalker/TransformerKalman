@@ -1,0 +1,7 @@
+File: Scenarios.l96
+Class: L96
+Params:
+  F: 8.0
+  time_step: 0.02
+  substeps: 4
+  p: 2.0

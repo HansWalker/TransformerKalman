@@ -1,0 +1,31 @@
+Models:
+    - simple_transformer
+    - full_transformer
+Filters:
+    - ensemble_kalman_filter
+    - extended_kalman_filter
+    #- sir
+    - unscented_kalman_filter
+Scenario: nlink_pendulum
+Config_Dirs:
+    scenarios_dir: Configs/Scenarios
+    model_dir: Configs/Models
+    kalman_filters_dir: Configs/Kalman_Filters
+Params:
+    dim: 1
+    History: -1
+    seed: 0
+    process_var: 0.001
+    observation_var: 0.001
+    initial_state_var: .01
+Training:
+    new_model: True
+    steps: 1500
+    lr: 0.001
+    batch_size: 400
+    timesteps: 500
+Validation:
+    Load_Model: False
+    Model_paths:
+    batch_size: 512
+    timesteps: 200

@@ -1,0 +1,6 @@
+File: Kalman_Filters.sir
+Class: SIRPF
+Params:
+  J: 512          # number of particles
+  ess_frac: 0.5   # resample when ESS < ess_frac * J
+  jitter: 1e-8    # tiny diagonal added to R if Cholesky needs stabilization

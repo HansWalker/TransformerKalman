@@ -1,0 +1,4 @@
+File: Models.full_transformer
+Class: FullTransformer
+Params:
+  hidden_dim: 256
